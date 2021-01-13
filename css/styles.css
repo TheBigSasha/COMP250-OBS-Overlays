@@ -134,7 +134,7 @@ input {
 }
 
 .fullscreen{
-  background: none;
+  padding: 50vh 50vw;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -145,6 +145,7 @@ input {
   align-items: center;
   text-align: center;
   align-content: center;
+  transition: padding-right, padding-left, padding-bottom, padding-top, background-color linear .5s;
 
 }
 
@@ -161,7 +162,7 @@ input {
 
 .fullscreen h1{
   transition: all linear .5s;
-
+  /*text-shadow: 2px 2px 16px rgba(255,255,255,0.7);*/
   font-size: 4vw;
 }
 

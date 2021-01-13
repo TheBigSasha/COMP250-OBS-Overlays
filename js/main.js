@@ -35,10 +35,10 @@
 
       }, 1800);
 
-      setTimeout(function() {
-        fadeTarget.parentElement.classList.add("subtle");
-
-      }, 10000);
+//       setTimeout(function() {
+//         fadeTarget.parentElement.classList.add("subtle");
+// //Bug on transition before it goes subtle
+//       }, 10000);
 
     }
     console.log(this.responseText);

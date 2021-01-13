@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1ee12e-ee2d-42a4-b8b8-8ffdb5646e0d" name="Default Changelist" comment="Add cool background for the waiting page">
+    <list default="true" id="2c1ee12e-ee2d-42a4-b8b8-8ffdb5646e0d" name="Default Changelist" comment="Add animation on change scene">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftwareInstalls.html" beforeDir="false" afterPath="$PROJECT_DIR$/SoftwareInstalls.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610501148228</updated>
       <workItem from="1610501150267" duration="13375000" />
-      <workItem from="1610556509790" duration="4454000" />
+      <workItem from="1610556509790" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="Add support for REST API">
       <created>1610520254144</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610522427677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add animation on change scene">
+      <created>1610561445628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610561445628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +119,7 @@
     <MESSAGE value="Add support for REST API" />
     <MESSAGE value="improve API polling rate (DDOS mode LOL)" />
     <MESSAGE value="Add cool background for the waiting page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cool background for the waiting page" />
+    <MESSAGE value="Add animation on change scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add animation on change scene" />
   </component>
 </project>
