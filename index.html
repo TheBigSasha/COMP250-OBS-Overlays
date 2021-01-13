@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js"></script>
 
   <meta name="theme-color" content="#fafafa">
@@ -25,10 +26,32 @@
 </head>
 
 <body>
-<a href="SoftwareInstalls.html"> hello world</a>
-<a href="Waiting.html"> hello world</a>
-<label for="topic"></label><textarea id="topic"></textarea>
-<button onclick="postCurrentTopic()">PostTopic!</button>
+
+<iframe src="SoftwareInstalls.html" width="100%" height="200px"></iframe>
+
+
+<div class="broadcast-controls">
+  <label for="topic"></label><textarea id="topic"></textarea>
+  <button onclick="postCurrentTopic()">PostTopic!</button>
+  <br/>
+  <button onclick="postTopic('Introductions')">Intro</button>
+  <button onclick="postTopic('Software Installs - Windows')">Install - Windows</button>
+  <button onclick="postTopic('Software Installs - Mac')">Install - Mac</button>
+  <button onclick="postTopic('IDE tour')">IDE Tour</button>
+  <button onclick="postTopic('Hello World in Java')">Hello World</button>
+  <button onclick="postTopic('Simple Application')">Simple app</button>
+  <button onclick="postTopic('The Debugger')">Debugger</button>
+  <button onclick="postTopic('Student Questions')">Questions</button>
+
+</div>
+
+<iframe src="Waiting.html" width="1920px" height="1200px"></iframe>
+
+
+
+
+
+
 
 <script>
   function  postCurrentTopic(){
@@ -42,9 +65,18 @@
     );
 
   }
+
+  function postTopic(topic){
+    console.log("Posting topic!")
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://localhost:8080/setTopic", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(
+      topic
+    );
+  }
 </script>
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
