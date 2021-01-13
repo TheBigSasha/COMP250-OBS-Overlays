@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1ee12e-ee2d-42a4-b8b8-8ffdb5646e0d" name="Default Changelist" comment="Add support for REST API">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    <list default="true" id="2c1ee12e-ee2d-42a4-b8b8-8ffdb5646e0d" name="Default Changelist" comment="improve API polling rate (DDOS mode LOL)">
+      <change beforePath="$PROJECT_DIR$/Waiting.html" beforeDir="false" afterPath="$PROJECT_DIR$/Waiting.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610501148228</updated>
-      <workItem from="1610501150267" duration="12744000" />
+      <workItem from="1610501150267" duration="13062000" />
     </task>
     <task id="LOCAL-00001" summary="Add support for REST API">
       <created>1610520254144</created>
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610520254144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="improve API polling rate (DDOS mode LOL)">
+      <created>1610522044844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610522044844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add support for REST API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add support for REST API" />
+    <MESSAGE value="improve API polling rate (DDOS mode LOL)" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve API polling rate (DDOS mode LOL)" />
   </component>
 </project>

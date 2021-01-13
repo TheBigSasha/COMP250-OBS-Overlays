@@ -98,6 +98,13 @@ lottie-player{
   background: black;
 }
 
+.background h1{
+  font-size: 30vw;
+  font-weight: 899;
+  transform: translateY(-35vh);
+  line-height: 0.8;
+}
+
 .anim, .anim svg {
   position: relative;
   width: 100%;
