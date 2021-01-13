@@ -1,5 +1,5 @@
 
-setInterval(function(){
+  setInterval(function(){
   var request = new XMLHttpRequest()
 
 // Open a new connection, using the GET request on the URL endpoint
@@ -13,4 +13,18 @@ setInterval(function(){
 // Send request
   request.send()
 
-}, 3000);
+}, 300);
+
+
+
+function  postCurrentTopic(){
+  console.log("Posting topic!")
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "http://localhost:8080/setTopic", true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  var value = document.getElementById("topic").value;
+  xhr.send(JSON.stringify({
+    value
+  }));
+
+}

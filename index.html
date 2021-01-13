@@ -18,20 +18,37 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
 
   <meta name="theme-color" content="#fafafa">
+
 </head>
 
 <body>
 <a href="SoftwareInstalls.html"> hello world</a>
 <a href="Waiting.html"> hello world</a>
-<button onclick="">Next!</button>
+<label for="topic"></label><textarea id="topic"></textarea>
+<button onclick="postCurrentTopic()">PostTopic!</button>
 
+<script>
+  function  postCurrentTopic(){
+    console.log("Posting topic!")
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "http://localhost:8080/setTopic", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    var value = document.getElementById("topic").value;
+    xhr.send(
+      value
+    );
+
+  }
+</script>
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
